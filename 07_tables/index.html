@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Daily Schedule</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td><time datetime="8:00">8 AM</time> - <time datetime="10:00">10 AM</time></td>
+                <td>Coding</td>
+            </tr>
+            <tr>
+                <th scope="row">Break</th>
+                <td><time datetime="10:00">10 AM</time> - <time datetime="11:00">11 AM</time></td>
+                <td>Visit relative</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td><time datetime="13:00">1 PM</time> - <time datetime="17:00">5 PM</time></td>
+                <td>Study for other courses</td>
+            </tr>
+            <tr>
+                <th scope="row">Between evening and Afternoon</th>
+                <td rowspan="2">Remaining time</td>
+                <td>Sleep</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Free time</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">--------------------------------------------------------------------------------------------------</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
