@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inputs and Forms</title>
+    </head>
+    <body>
+        <form action="http://my-server.com" method="post">
+            <fieldset>
+                <legend>My form</legend>
+                <label for="input_name">Enter your username: </label>
+                <input type="text" placeholder="Your username" id="input_name" autocomplete="on" name="username"/>
+                <br/><br/>
+                <label for="input_password">Enter your password: </label>
+                <input type="password" placeholder="Your password" id="input_password" name="user_password"/>
+                <br/><br/>
+                <label for="phone_number">Enter your phone number: </label>
+                <input type="tel" id="phone_number" placeholder="xx-xxxxxx" name="user_phone_number"/>
+                <br /><br />
+                <label for="email">Enter your email: </label>
+                <input type="email" id="email" placeholder="someemail@example.com" name="user_email"/>
+                <br /><br />
+                <label for="is_married">Are you married: </label>
+                <input type="checkbox" id="is_married" name="is_user_married"/>
+                <br /><br />
+                <label for="number">Choose your ticket id: </label>
+                <input type="number" id="number" value="2000" min="1800" max="2200" step="10" name="chosen_number" />
+                <br /><br />
+                <label for="country">Select your country: </label>
+                <select name="user_country" id="country">
+                    <optgroup label="Asia">
+                        <option value="lebanon">LB</option>
+                        <option value="syria">SYR</option>
+                        <option value="palestine">PAL</option>
+                    </optgroup>
+                    <optgroup label="Aftica">
+                        <option value="egypt">EGY</option>
+                        <option value="libya">LY</option>
+                    </optgroup>
+                </select>
+                <br><br>
+                <label for="region"> Enter your region</label>
+                <input type="text" id="region" name="user_region" list="region_list"/>
+                <datalist id="region_list">
+                    <option value="lebanon">LB</option>
+                    <option value="syria">SYR</option>
+                    <option value="palestine">PAL</option>
+                    <option value="egypt">EGY</option>
+                </datalist>
+                <br><br>
+                <h3>Choose your major:</h3>
+                <input type="radio" id="computer_engineering" value="computer_engineering" name="user_major"> 
+                <label for="computer_engineering">Computer Engineering</label>
+                <br/>
+                <input type="radio" id="computer_science" value="computer_science"  name="user_major"/>
+                <label for="computer_science">Computer Science</label>
+                <br>
+                <input type="radio" id="other_major" value="other_major"  name="user_major" checked/>
+                <label for="other_major">Others</label>
+                <br>
+                <h2>Choose your hobbies: </h2>
+                
+                <input type="checkbox" id="reading" name="hobbies" value="reading" />
+                <label for="reading">Reading</label>
+                <br/>
+                <input type="checkbox" id="coding" name="hobbies" value="coding" />
+                <label for="coding">Coding</label>
+                <br/>
+                <input type="checkbox" id="learning" name="hobbies" value="learning" />
+                <label for="learning">Learning</label>
+                <hr />
+                <textarea name="message" id="text_area_message" rows="3" cols="30"></textarea>
+                <br><br>
+                <input type="submit" value="Submit Application">
+                <input type="reset" value="Clear Form">
+            </fieldset>
+        </form>
+    </body>
+</html>
