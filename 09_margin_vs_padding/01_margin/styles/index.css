@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/*  
+    --------------------1--------------------
+    margin-top: 10px;
+    margin-right: 12px;
+    margin-bottom: 14px;
+    margin-left: 16px;
+    Or we can do the following:
+
+    margin: 10px 12px 14px 16px;
+
+    --------------------2--------------------
+    margin-top: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    Or we can do the following:
+
+    margin: 10px 12px;
+
+    --------------------3--------------------
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    Or we can do the following:
+
+    margin: 10px;
+
+    --------------------3--------------------
+    margin-top: 10px;
+    margin-bottom: 10px;
+    Centered according to left and right
+
+    margin: 10px auto;
+*/

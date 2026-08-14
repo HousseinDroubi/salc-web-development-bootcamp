@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #eee;
+}
+
+.box-1{
+    width: 70%;
+    height: 30px;
+    background-color: purple;
+}
+
+.box-2{
+    width: 700px;
+    height: 100px;
+    background-color: red;
+}
+
+.box-3{
+    height: 40px;
+    width: 50%;
+    background-color: green;
+}

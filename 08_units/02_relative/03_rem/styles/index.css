@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #eee;
+}
+
+article>p:first-child{
+    font-size: 1rem;
+}
+
+article>p:nth-child(2){
+    font-size: 2rem;
+}
+
+article>p:last-child{
+    font-size: 3rem;
+}

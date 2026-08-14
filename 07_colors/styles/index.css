@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.p1{
+    color: red;
+}
+
+.p2{
+    color: #ff0000; /* each digit of 6 digits might be 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f */
+}
+
+.p3{
+    color: #f00; /* same as #ff0000 */
+}
+
+.p4{
+    color: rgb(255,0,0); /* each attrtibute of 3 attributes can be between 0 and 255 */
+}
+
+.p5{
+    color: rgba(255,0,0,0.8); /* each attrtibute of 3 attributes can be between 0 and 255 and last attribute is the opacity between 0 and 1*/
+}
+
+.p6{
+    color: hsl(0, 100%, 50%);
+}
+
+.p7{
+    color: hwb(0 0% 0%);
+}
