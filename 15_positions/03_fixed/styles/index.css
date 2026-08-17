@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+.outer {
+    height: 70vh;
+    width: 60vw;
+    border: 3px solid red;
+    margin: 30px auto;
+    position: relative;
+}
+
+.inner {
+    height: 75%;
+    width: 70%;
+    border: 2px solid blue;
+    margin: 40px auto;
+}
+
+.absolute {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}

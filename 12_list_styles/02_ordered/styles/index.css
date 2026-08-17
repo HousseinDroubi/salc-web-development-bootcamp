@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+ol{
+    margin: 10px 0;
+}
+
+.ol-1{
+    list-style-type: lower-greek;
+}
+
+.ol-2{
+    list-style-type: upper-alpha;
+}
+
+.ol-3{
+    list-style-type: none;
+}
+
+
+.ol-4{
+    list-style-image: url("../assets/icons/done.svg");
+}

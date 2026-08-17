@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+ul{
+    margin: 10px 0;
+}
+
+.ul-1{
+    list-style-type: square;
+}
+
+.ul-2{
+    list-style-type: circle;
+}
+
+.ul-3{
+    list-style-type: disc;
+}

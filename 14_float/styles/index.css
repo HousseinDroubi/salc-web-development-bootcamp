@@ -1,0 +1,17 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+    margin-right: 20px;
+}
