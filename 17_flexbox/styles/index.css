@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    padding: 30px;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+
+h4{
+    margin-top: 30px;
+}
+
+section{
+    margin-top: 10px;
+    border: 3px solid blue;
+}
+
+h4{
+    text-align: center;
+}
+
+.h-200{
+    height: 200px;
+}
+
+/*  */
+.s1{
+    display: flex;
+    flex-direction: row;
+}
+
+.s2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.s3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.s4{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.s5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.s6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.s7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.s8{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.s9{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.s10{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+}
+
+.s11{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: nowrap;
+}
+
+.s12{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.s13{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap-reverse;
+}
+
+.s14{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: start;
+}
+
+.s15{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.s16{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: end;
+}
+
+.s17{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.s18{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.s19{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
