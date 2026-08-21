@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-left: 10px solid blue;
+    border-right: 10px solid blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.d1{
+    box-sizing: content-box;
+}
+
+.d2{
+    box-sizing: border-box;
+}

@@ -172,3 +172,94 @@ h4{
     flex-wrap: wrap;
     align-content: space-around;
 }
+
+/*  Beginning of s20 */
+.s20{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s20 >div:first-child{
+    align-self: start;
+}
+
+.s20 >div:nth-child(2){
+    align-self: end;
+}
+
+.s20 > div:nth-child(3){
+    height: auto;
+    align-self: stretch;
+}
+
+.s20 > div:last-child{
+    align-self: center;
+}
+
+/*  End of s20 */
+
+/*  Beginning of s21 */
+.s21{
+    display: flex;
+    flex-direction: row;
+}
+
+.s21 > div:first-child{
+    flex-basis: 120px;
+    flex-grow: 1;
+}
+
+.s21 > div:last-child{
+    flex-basis: 120px;
+    flex-grow: 3;
+}
+
+/*  End of s21 */
+
+/*  Beginning of s22 */
+.s22{
+    display: flex;
+    flex-direction: row;
+}
+
+.s22 > div:first-child{
+    flex-basis: 120px;
+    flex-shrink: 1;
+}
+
+.s22 > div:last-child{
+    flex-basis: 120px;
+    flex-shrink: 3;
+}
+
+/*  End of s22 */
+
+/*  Beginning of s23 */
+.s23{
+    display: flex;
+    flex-direction: row;
+}
+
+.s23>div:first-child{
+    order: 1;
+    background-color: red;
+    color: white;
+    font-size: 1.1rem;
+}
+
+/*  End of s23 */
+
+.s24{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

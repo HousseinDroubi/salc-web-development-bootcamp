@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+}
+
+.d1{
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: blue; */
+    /* Or you can do the following */
+    border: 2px solid blue;
+}
+
+.d2{
+    background-color: aqua;
+    /*
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: red; 
+    
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: red; 
+
+    */
+
+    /* Or you can do the following */
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+}
+
+.d3{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.d4{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.d5{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: red;
+}
+
+.d6{
+    border: 2px solid blue;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.7); /* inset is optional */
+}
