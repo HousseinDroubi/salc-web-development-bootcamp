@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    background-image: url("../assets/images/image.jpg");
+    width: 700px;
+    height: 700px;
+    background-size: cover; /* or contain */
+    background-repeat: no-repeat; /* repeat-x, repeat-y, repeat */
+    background-position: top right;
+}
