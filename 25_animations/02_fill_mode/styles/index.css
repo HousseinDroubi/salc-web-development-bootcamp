@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+section {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: animate 400ms 2s linear 3;
+}
+
+.forwards{
+    animation-fill-mode: forwards;
+}
+
+.backwards {
+    animation-fill-mode: backwards;
+}
+
+.both {
+    animation-fill-mode: both;
+} 
+
+@keyframes animate {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(100px);
+    }   
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+    animation: animate 2s 1s linear infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        transform: translateX(-200px);
+        background-color: red;
+    }
+
+    33%{
+        transform: translateY(-200px);
+        background-color: green;
+    }
+
+    66%{
+        transform: translateX(200px);
+        background-color: purple;
+    }
+}
