@@ -1,5 +1,6 @@
-const x = 3;
-const y = 4;
+let i = 0;
 
-const h = Math.sqrt((x ** 2 + y ** 2));
-console.log(h);
+while(i<3){
+    console.log(`Number is ${i}`);
+    i++;
+}
