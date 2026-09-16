@@ -1,0 +1,3 @@
+1- SQL stands for Structured Query Language, it's used to manage data inside databases like MySQL, PostgreSQL ...
+2- With SQL, we can do the CRUD operations (Create, Read, Update and Delete).
+3- Data are stored inside MySQL using tables inside database. One database can hold mutiple tables
