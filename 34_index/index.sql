@@ -35,7 +35,7 @@ ON employees(email);
 SELECT email from employees where email LIKE "%na@example.com";
 
 -- * Drop INDEX from a table
--- ! In this example we will delete last_name_idx INDEX and create last_name_first_name_idx that do the same job of last_name_idx
+-- ! In this example we will delete email_idx INDEX and create last_name_first_name_idx that do the same job of last_name_idx
 ALTER TABLE employees
 DROP INDEX email_idx;
 
