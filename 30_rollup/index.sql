@@ -3,7 +3,8 @@
 CREATE DATABASE learn_sql_db;
 
 CREATE TABLE customers (
-    id INT PRIMARY KEY AUTO_INCREMENT,first_name VARCHAR(50),
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(50),
     last_name VARCHAR(50),
     referral_id INT
 );

@@ -26,3 +26,6 @@ INSERT INTO transactions VALUES
 (NULL,20,1),
 (NULL,30,1),
 (NULL,40,2);
+
+-- try to delete a user data, this will set the user_id column in all their transactions to NULL
+DELETE FROM users WHERE id = 1;

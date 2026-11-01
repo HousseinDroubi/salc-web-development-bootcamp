@@ -21,10 +21,10 @@ VALUES
 SELECT *
 FROM customers LIMIT 2;
 
---2) First 1 customer after first customer
+-- 2) First 1 customer after the first customer (skip 1, take 1)
 SELECT * 
 FROM customers LIMIT 1, 1;
 
---3) First 1 customer after second customer
+-- 3) First 1 customer after the second customer (skip 2, take 1)
 SELECT * 
 FROM customers LIMIT 2, 1;
