@@ -37,7 +37,7 @@ ADD FOREIGN KEY(user_id) REFERENCES users(id);
 -- Add rows in table users
 INSERT INTO users VALUES
 (NULL, 'Houssein', 'Droubi',29),
-(NULL, 'Ali', 'Hijazi', 22);
+(NULL, 'Samy', 'Kaafranay', 22);
 
 -- Add rows in table phones
 INSERT INTO phones(name, price, user_id) VALUES
